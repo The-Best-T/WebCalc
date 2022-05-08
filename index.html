@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Calc</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="mainContent">
+    <div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">First</span>
+            </div>
+            <input id="first" type="number" class="form-control" aria-label="First"
+                   placeholder="First number" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon2">Second</span>
+            </div>
+            <input id="second" type="number" class="form-control" aria-label="Second"
+                   placeholder="Second number" aria-describedby="basic-addon1">
+        </div>
+    </div>
+
+    <div class="input-group radioCenter">
+        <div class="input-group-prepend">
+            <input type="radio" id="radioSum" name="operation" value="plus" checked>
+            <label for="radioSum">Plus</label>
+            <input type="radio" id="radioMinus" name="operation" value="minus">
+            <label for="radioMinus">Minus</label>
+            <input type="radio" id="radioMultiply" name="operation" value="multiply">
+            <label for="radioMultiply">Multiply</label>
+            <input type="radio" id="radioDivide" name="operation" value="divide">
+            <label for="radioDivide">Divide</label>
+        </div>
+    </div>
+    <div>
+        <button class="btn-primary" onclick="Calc()">Calc</button>
+    </div>
+    <div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">Result</span>
+            </div>
+            <input id="result" type="number" class="form-control" aria-label="Result"
+                   placeholder="Result" aria-describedby="basic-addon1" readonly>
+        </div>
+    </div>
+</div>
+<script src="js/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+button {
+    width: 7.5em;
+    border-radius: 7px;
+    margin: 1em;
+}
+
+.mainContent {
+    margin: 10em auto ;
+    border-width: 0.25em;
+    border-style: solid;
+    border-color:lightskyblue;
+    width: 30em;
+    text-align: center;
+    background-color: white;
+    padding: 1em;
+}
+
+.myFont *{
+    font-size: 20px;
+}
+
+.radioCenter {
+    width: 16em;
+    margin:auto;
+}
+
+body{
+    background-color: lightcyan;
+}
